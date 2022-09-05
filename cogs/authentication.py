@@ -4,9 +4,10 @@ from discord.ext import commands
 from discord.ui import Button, View, Modal, TextInput
 
 from backend.db.models import Users, session, engine
-from backend.client.Authentication import Auth
 
-Auth.get_new_cookies()
+# user/pass => tokens
+#from backend.client.Authentication import Auth
+#Auth.get_new_cookies() => auth/example.py
 
 import json
 
